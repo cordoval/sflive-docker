@@ -8,4 +8,6 @@
 /build/
 /vendor/
 /bin/
+!bin/start
+!bin/stop
 /composer.phar

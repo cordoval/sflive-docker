@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -v $(pwd):/var/www -p 80:80 --cidfile app/cache/docker.cid sflive/symfony2
